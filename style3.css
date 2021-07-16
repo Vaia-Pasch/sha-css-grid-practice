@@ -1,0 +1,57 @@
+* {
+    margin: 20px;
+}
+
+/* div {
+    border: 1px solid;
+} */
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "box1 box1 box1 box1"
+    "box2 box2 box2 box2"
+    "box3 box3 box3 box3"
+    "box4 box4 box4 box4"
+    "box5 box5 box5 box5"
+    ;
+    width: 50%;
+    height: 500px;
+    grid-gap: 10px;
+}
+
+.container > div {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+.box1 {
+    background-color: rgb(95, 92, 92);
+    grid-area: box1;
+    
+}
+
+.box2 {
+    background-color: rgb(124, 123, 122);
+    grid-area: box2;
+    
+}
+
+.box3 {
+    background-color: rgb(184, 180, 181);
+    grid-area: box3;
+    height: 100px;
+    
+}
+
+.box4 {
+    background-color: rgb(156, 156, 156);
+    grid-area: box4;
+    
+}
+
+.box5 {
+    background-color: rgb(103, 104, 104);
+    grid-area: box5;
+    
+}
